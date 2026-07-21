@@ -13,5 +13,8 @@ int main(void){
 	esPar(7);
 	temp = factorial(num);
 
+	printf("Factorial de %d es: %d\n\r", num, temp);
+
+	temp = factorial(10);
 	printf("Factorial de %d es: %d", num, temp);
 }
