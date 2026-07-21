@@ -13,5 +13,7 @@ int main(void){
 	esPar(7);
 	temp = factorial(num);
 
-	printf("Factorial de %d es: %d", num, temp);
+	printf("Factorial de %d es: %d\n\r", num, temp);
+
+	printf("Final del programa, para la tercera version\n\r");
 }
