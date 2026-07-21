@@ -16,4 +16,7 @@ int main(void){
 	printf("Factorial de %d es: %d\n\r", num, temp);
 
 	printf("Final del programa, para la tercera version\n\r");
+
+	temp = factorial(10);
+	printf("Factorial de %d es: %d", num, temp);
 }
